@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(0, 192, 128);
+}
+
+header{
+    display: none;
+}
+
+header, #entrada{
+    
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgrey;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#entrada{
+    background-color: rgb(0, 121, 80);
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+nav a:visited{
+    color: cadetblue;
+}
+
+p{
+    font-size: 20pt;
+}
